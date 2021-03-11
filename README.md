@@ -9,7 +9,7 @@ Dynamic Traffic Management and Vehicle Track and count using Drones
 <img width="200" alt="tello wifi" src="https://user-images.githubusercontent.com/50179614/110765106-d7e9a780-8279-11eb-9f3f-bf2c342ecf5b.png">
  
 
-## To see it in action:
+## 2. To see it in action:
 
 1. Open Two Command prompts in the working directory (or just open cmd and then direct it to the folder using `cd` command) 
 2. In the first command prompt: type `python tello-command.py` and hit enter, this will initialise the tello drone. (Your DJI tello drones must be connceted for this step. refer to [1. Connecting to DJI Tello Drone](#1-connecting-to-dji-tello-drone)).
