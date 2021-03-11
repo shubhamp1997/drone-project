@@ -5,6 +5,7 @@ Dynamic Traffic Management and Vehicle Track and count using Drones
 1.1. Place the batteries inside the drone and press the switch on button on the drone placed on the left side.
 1.2. wait for a second untill the front LED indicator on the drone starts blinking in yellowish color. 
 1.3. Locate the Tello Wifi Network in your Wifi List and then connect to it. 
+
 <img width="200" alt="tello wifi" src="https://user-images.githubusercontent.com/50179614/110765106-d7e9a780-8279-11eb-9f3f-bf2c342ecf5b.png">
  
 
