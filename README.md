@@ -10,12 +10,12 @@ Dynamic Traffic Management and Vehicle Track and count using Drones
 
 ## To see it in action:
 
-1. Open Two Command prompts in the working directory (or just open cmd and then direct it to the folder using 'cd' command) 
-2. In the first command prompt: type "python tello-command.py" and hit enter, this will initialise the tello drone. (Your DJI tello drones must be connceted for this step. refer to 1.1 Connecting the Drone topic to follow thorugh).
-3. Type "command" and hit enter, this will tell the drone to operate in a command prompt way.
-4. after which you should see a "response ok".
-5. after this you can tell your drone to takeoff etc, simply type "takeoff" and hit enter.
-6. Type "streamon" and hit enter, this will switch on the camera stream for the next process to follow.
+1. Open Two Command prompts in the working directory (or just open cmd and then direct it to the folder using `cd` command) 
+2. In the first command prompt: type `python tello-command.py` and hit enter, this will initialise the tello drone. (Your DJI tello drones must be connceted for this step. refer to 1.1 Connecting the Drone topic to follow thorugh).
+3. Type `command` and hit enter, this will tell the drone to operate in a command prompt way.
+4. after which you should see a `response ok`.
+5. after this you can tell your drone to takeoff etc, simply type `takeoff` and hit enter.
+6. Type `streamon` and hit enter, this will switch on the camera stream for the next process to follow.
 7. Now in the second command prompt copy and paste this command:
 ```python
 python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --video 0 --output ./data/video/output.avi --count --tiny
