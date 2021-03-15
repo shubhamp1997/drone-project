@@ -58,8 +58,8 @@ def main(_argv):
 
     # begin video capture
     try:
-        vid = cv2.VideoCapture("udp://@0.0.0.0:11111")
-        #vid = cv2.VideoCapture(int(video_path))
+        #vid = cv2.VideoCapture("udp://@0.0.0.0:11111")
+        vid = cv2.VideoCapture(int(video_path))
     except:
         vid = cv2.VideoCapture(video_path)
 
