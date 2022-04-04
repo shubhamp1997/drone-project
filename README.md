@@ -30,7 +30,7 @@ python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --mode
 *If you see some red color errors after running the `detect_video.py` don't worry they just occur because it takes time to listen to the video stream of the drone and until then the program can't find any frame/image to run the detection onto, it takes about 3-4 seconds in the beginning.*
 
 
-## 3. Sample Video
+## 3. Sample Videos
 
 ### Sample 1: Simulated video
 
