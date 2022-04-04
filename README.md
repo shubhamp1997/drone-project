@@ -32,11 +32,11 @@ python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --mode
 
 ## 3. Sample Video
 
-### Sample 1, Simulated video
+### Sample 1: Simulated video
 
 https://user-images.githubusercontent.com/50179614/161645332-0219b880-5353-4856-86e5-f7c3ba9b2d45.mp4
 
-### Sample 2, Real Working
+### Sample 2: Real Working
 
 https://user-images.githubusercontent.com/50179614/161645907-e3722e37-daef-45d9-b65f-5fd8d18bc8dc.mp4
 
