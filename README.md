@@ -1,4 +1,4 @@
-# drone-project
+# Drone Traffic Management Project
 Dynamic Traffic Management and Vehicle Track and count using Drones
 
 ## 1. Connecting to DJI Tello Drone: 
