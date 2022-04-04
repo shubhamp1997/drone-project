@@ -28,3 +28,9 @@ python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --mode
 8. This will run the detect_video.py file and instruct it to use the camera stream as an input to detect the cars and then save the output in an "output.avi" file in the data/video folder.
 
 *If you see some red color errors after running the `detect_video.py` don't worry they just occur because it takes time to listen to the video stream of the drone and until then the program can't find any frame/image to run the detection onto, it takes about 3-4 seconds in the beginning.*
+
+
+## 3. Sample Video
+
+https://user-images.githubusercontent.com/50179614/161645332-0219b880-5353-4856-86e5-f7c3ba9b2d45.mp4
+
